@@ -16,3 +16,4 @@ export type {
 
 export { turnLeft, turnRight } from "./rotation";
 export { nextPosition } from "./movement";
+export { isWithinGrid } from "./grid";
