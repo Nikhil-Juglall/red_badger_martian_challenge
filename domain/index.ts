@@ -13,3 +13,5 @@ export type {
   TurnLeft,
   TurnRight,
 } from "./types";
+
+export { turnLeft, turnRight } from "./rotation";
