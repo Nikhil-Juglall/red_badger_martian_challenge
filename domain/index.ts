@@ -15,3 +15,4 @@ export type {
 } from "./types";
 
 export { turnLeft, turnRight } from "./rotation";
+export { nextPosition } from "./movement";
