@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+.dist/
+
+# Vite cache
+.vite/
+
+# Test coverage
+coverage/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript build information
+*.tsbuildinfo
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
