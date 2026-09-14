@@ -7,6 +7,7 @@ export type {
   Position,
   PositionKey,
   Robot,
+  RobotInstructions,
   Scents,
   SimulationResult,
   SimulationRobot,
@@ -20,3 +21,4 @@ export { isWithinGrid } from "./grid";
 export { addScent, hasScent, positionToKey } from "./scents";
 export { executeInstructions } from "./executor";
 export type { RobotExecutionResult } from "./executor";
+export { simulate } from "./simulation";

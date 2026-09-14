@@ -1,9 +1,6 @@
-import type { Directions, Grid, Robot } from "../domain/types";
+import type { Directions, Grid, RobotInstructions } from "../domain/types";
 
-export interface ParsedRobot {
-  robot: Robot;
-  instructions: string;
-}
+export type ParsedRobot = RobotInstructions;
 export interface ParsedInput {
   grid: Grid;
   robots: ParsedRobot[];

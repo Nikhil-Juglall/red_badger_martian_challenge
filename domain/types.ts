@@ -16,6 +16,11 @@ export interface Robot {
   direction: Directions;
 }
 
+export interface RobotInstructions {
+  robot: Robot;
+  instructions: string;
+}
+
 /** A value for storing a position in a Set */
 export type PositionKey = `${number},${number}`;
 
