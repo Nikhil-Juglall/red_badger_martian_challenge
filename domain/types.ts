@@ -19,7 +19,7 @@ export interface Robot {
 /** A value for storing a position in a Set */
 export type PositionKey = `${number},${number}`;
 
-export type LostRobotPositions = Set<PositionKey>;
+export type Scents = Set<PositionKey>;
 
 export interface TurnLeft {
   type: "turn-left";
@@ -42,6 +42,6 @@ export interface SimulationRobot extends Robot {
 }
 
 export interface SimulationResult {
-  robots: readonly SimulationRobot[];
-  lostPositions: LostRobotPositions;
+  robots: SimulationRobot[];
+  scents: Scents;
 }

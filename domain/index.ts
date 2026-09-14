@@ -7,7 +7,7 @@ export type {
   Position,
   PositionKey,
   Robot,
-  LostRobotPositions,
+  Scents,
   SimulationResult,
   SimulationRobot,
   TurnLeft,
@@ -17,3 +17,4 @@ export type {
 export { turnLeft, turnRight } from "./rotation";
 export { nextPosition } from "./movement";
 export { isWithinGrid } from "./grid";
+export { addScent, hasScent, positionToKey } from "./scents";
