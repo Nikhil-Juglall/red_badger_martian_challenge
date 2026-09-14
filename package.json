@@ -1,0 +1,9 @@
+{
+  "name": "martian-robots",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {"dev": "vite", "build": "tsc -b && vite build", "test": "vitest run", "test:watch": "vitest", "lint": "eslint ."},
+  "dependencies": {"react": "latest", "react-dom": "latest"},
+  "devDependencies": {"@eslint/js": "latest", "@types/react": "latest", "@types/react-dom": "latest", "@vitejs/plugin-react": "latest", "eslint": "latest", "typescript": "latest", "typescript-eslint": "latest", "vite": "latest", "vitest": "latest"}
+}
